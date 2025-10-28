@@ -9,6 +9,10 @@ body{
   background-color: #0d192b;
 }
 
+p{
+  font-size: 18px;
+}
+
 .container{
   margin: 7rem auto;
   display: flex;
@@ -18,13 +22,99 @@ body{
   width: 360px;
   height: fit-content;
   background-color: #14253d;
-  
+  border-radius: 20px;
 }
 
 .main-img{
-  height: 340px;
+  height: 320px;
   width: 308px;
   align-self: center;
   margin-top: 25px;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.head{
+  display: grid;
+  margin-left: 30px;
+}
+
+h2{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.head p{
+  color: #8bacda;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.price-date{
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.price{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: large;
+  margin-right: 90px;
+  color: #00fff7;
+}
+
+.price img{
+  width: 12px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.date{
+  display: flex;
+  margin-top: 5%;
+  color: #8bacda;
+}
+
+.date img{
+  width: 15px;
+  height: 18px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.date p{
+  
+}
+
+.profile{
+  display: flex;
+  margin-top: 20px;
+  color: #fff;
+}
+
+span{
+  color: #8bacda;
+}
+
+.profile p{
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+.profile img{
+  width: 36px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+
+hr{
+  opacity: 0.1;
+  border: 1px solid lightgray;
+  width: 300px;
+  margin-left: 30px;
 }
